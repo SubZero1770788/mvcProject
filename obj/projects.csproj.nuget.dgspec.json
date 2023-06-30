@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\projects.csproj": {}
+    "c:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\mvcProject\\projects.csproj": {}
   },
   "projects": {
-    "C:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\projects.csproj": {
+    "c:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\mvcProject\\projects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\projects.csproj",
+        "projectUniqueName": "c:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\mvcProject\\projects.csproj",
         "projectName": "projects",
-        "projectPath": "C:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\projects.csproj",
+        "projectPath": "c:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\mvcProject\\projects.csproj",
         "packagesPath": "C:\\Users\\djanu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\obj\\",
+        "outputPath": "c:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\mvcProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\djanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,7 +21,6 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +38,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
