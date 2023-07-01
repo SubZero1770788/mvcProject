@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\mvcProject\\projects.csproj": {}
+    "C:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\mvcProject\\projects.csproj": {}
   },
   "projects": {
-    "c:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\mvcProject\\projects.csproj": {
+    "C:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\mvcProject\\projects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\mvcProject\\projects.csproj",
+        "projectUniqueName": "C:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\mvcProject\\projects.csproj",
         "projectName": "projects",
-        "projectPath": "c:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\mvcProject\\projects.csproj",
+        "projectPath": "C:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\mvcProject\\projects.csproj",
         "packagesPath": "C:\\Users\\djanu\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\mvcProject\\obj\\",
+        "outputPath": "C:\\Users\\djanu\\OneDrive\\Pulpit\\projects\\mvcProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\djanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,6 +21,7 @@
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,7 +44,19 @@
               "target": "Package",
               "version": "[7.0.8, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.8, )"
             }
